@@ -1,0 +1,82 @@
+body {
+  background-color: #333333;
+  color: white;
+}
+
+.modify-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.2em;
+  color: #0dcaf0;
+}
+
+.heading {
+  text-align: center;
+}
+
+.content {
+  width: 80%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.sign-in {
+  color: blue;
+}
+
+.sign-in-btn:hover a {
+  color: white;
+}
+
+.edit {
+  color: #333333;
+}
+
+.edit:hover {
+  color: white;
+}
+
+.delete {
+  color: #333333;
+}
+
+.delete:hover {
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: blue;
+}
+
+.delete-btn:hover {
+  background-color: red;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  outline: none;
+  transition: border 0.3s;
+  margin-bottom: 20px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+}
